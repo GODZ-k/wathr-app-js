@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contaner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    background: red;
+    height: 80vh;
+    width: 30rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    padding: 20px;
+}
+
+.input button,
+.input input {
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: white;
+}
+
+.weather {
+    /* width: 100%; */
+    padding: 20px;
+}
+
+.last-port {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 46px 40px;
+}
